@@ -17,12 +17,9 @@ import { MatListModule } from '@angular/material/list';
 import { RouterOutlet } from '@angular/router';
 import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { materialize } from "rxjs";
 
 @NgModule({
-    declarations: [
-        AppComponent
-    ],
+    declarations: [],
     imports: [
         BrowserModule,
         RouterOutlet,
