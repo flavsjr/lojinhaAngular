@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-header',
   standalone: true,
   template: `
-    <h1>Este é o Header</h1>
+    <h1>Atualizar aqui</h1>
   `,
 })
 export class HeaderComponent implements OnInit {
