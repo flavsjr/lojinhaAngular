@@ -1,5 +1,7 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from "./app.component";
+import { RouterOutlet } from '@angular/router';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -14,9 +16,8 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatListModule } from '@angular/material/list';
 
-import { RouterOutlet } from '@angular/router';
-import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { AngularMaterialModule } from "./components/shared/angular-material/angular-material.module";
 
 @NgModule({
     declarations: [],
@@ -28,17 +29,22 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
         MatGridListModule,
         MatMenuModule,
         MatButtonModule,
+        MatToolbarModule,
         MatCardModule,
         MatIconModule,
         MatExpansionModule,
         MatListModule,
-        MatToolbarModule,
         MatTableModule,
         MatBadgeModule,
-        MatSnackBarModule
+        MatSnackBarModule,
+        AngularMaterialModule
+    ],
+    exports: [
+        MatToolbarModule,
+        MatCardModule
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    // bootstrap: [AppComponent]
 })
 
 export class AppModule { }
