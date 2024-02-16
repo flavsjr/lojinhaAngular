@@ -15,13 +15,15 @@ import { MatTableModule} from '@angular/material/table';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatListModule } from '@angular/material/list';
-
+import { AppRoutingModule } from "./app.routes";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AngularMaterialModule } from "./components/shared/angular-material/angular-material.module";
 
 @NgModule({
-    declarations: [],
+    declarations: [
+    ],
     imports: [
+        AppRoutingModule,
         BrowserModule,
         RouterOutlet,
         BrowserAnimationsModule,
@@ -37,7 +39,8 @@ import { AngularMaterialModule } from "./components/shared/angular-material/angu
         MatTableModule,
         MatBadgeModule,
         MatSnackBarModule,
-        AngularMaterialModule
+        AngularMaterialModule,
+        MatSidenavModule
     ],
     exports: [
         MatToolbarModule,
