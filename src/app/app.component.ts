@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
     <router-outlet></router-outlet>
   `,
   styles: [],
-  imports: [HeaderComponent, RouterModule, AngularMaterialModule]
+  imports: [HeaderComponent, RouterModule, AngularMaterialModule,]
 })
 export class AppComponent {
   title = 'lojinhaAngular';

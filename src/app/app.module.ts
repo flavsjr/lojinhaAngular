@@ -47,7 +47,7 @@ import { AngularMaterialModule } from "./components/shared/angular-material/angu
         MatCardModule
     ],
     providers: [],
-    // bootstrap: [AppComponent]
+    bootstrap: []
 })
 
 export class AppModule { }
