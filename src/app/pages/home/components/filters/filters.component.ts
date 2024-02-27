@@ -10,7 +10,7 @@ import { MatListOption, MatSelectionList } from '@angular/material/list';
   templateUrl: 'filters.component.html' 
 })
 export class FiltersComponent implements OnInit {
-  categories = ['shoes', 'sports'];
+  categories = ['shoes', 'sports', 'shirts'];
 
   constructor() { }
 
