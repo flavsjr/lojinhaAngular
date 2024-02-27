@@ -2,8 +2,6 @@ import { Component, EventEmitter, Output } from '@angular/core';
 import { MatCard, MatCardModule } from '@angular/material/card';
 import { MatIcon, MatIconModule } from '@angular/material/icon';
 import { MatMenu, MatMenuModule, MatMenuTrigger } from '@angular/material/menu';
-import { HeaderComponent } from '../../../../components/header/header.component';
-import { AppComponent } from '../../../../app.component';
 import { MatDrawer, MatDrawerContainer, MatDrawerContent, MatSidenavModule } from '@angular/material/sidenav';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { AngularMaterialModule } from '../../../../components/shared/angular-material/angular-material.module';

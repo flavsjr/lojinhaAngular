@@ -3,6 +3,7 @@ import { HeaderComponent } from '../../../components/header/header.component';
 import { AppComponent } from '../../../app.component';
 import { MatDrawer, MatDrawerContainer, MatDrawerContent } from '@angular/material/sidenav';
 import { ProductsHeaderComponent } from './products-header/products-header.component';
+import { FiltersComponent } from './filters/filters.component';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +14,9 @@ import { ProductsHeaderComponent } from './products-header/products-header.compo
     MatDrawerContainer,
     MatDrawer,
     MatDrawerContent,
-    ProductsHeaderComponent],
+    ProductsHeaderComponent,
+    FiltersComponent,
+    ],
   templateUrl: './home.component.html',
 })
 export class HomeComponent implements OnInit {
