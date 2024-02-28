@@ -12,7 +12,7 @@ import { MatListOption, MatSelectionList } from '@angular/material/list';
 export class FiltersComponent implements OnInit {
   @Output() showCategory = new EventEmitter<string>();
 
-  categories = ['shoes', 'sports', 'shirts'];
+  categories = ['shoes', 'sports', 'shirts', 'pants'];
 
   constructor() { }
 
