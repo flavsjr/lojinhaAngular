@@ -20,8 +20,7 @@ import { FiltersComponent } from './filters/filters.component';
   templateUrl: './home.component.html',
 })
 export class HomeComponent implements OnInit {
-
-  cols = 3;
+  cols = 4;
   category: string | undefined;
 
   constructor() { }

@@ -7,7 +7,7 @@ import { MatListOption, MatSelectionList } from '@angular/material/list';
   selector: 'app-filters',
   standalone: true,
   imports: [FiltersComponent, MatExpansionModule,MatSelectionList, MatListOption, CommonModule],        
-  templateUrl: 'filters.component.html' 
+  templateUrl: './filters.component.html' 
 })
 export class FiltersComponent implements OnInit {
   @Output() showCategory = new EventEmitter<string>();
